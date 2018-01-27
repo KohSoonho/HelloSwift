@@ -348,9 +348,7 @@ func less_than_ten(number: Int) -> Bool {
 var numbers = [20, 19, 7, 12]
 has_any_match(list: numbers, condition: less_than_ten)
 
-// Closure can be written ({}).
-// Use "in" to separate the arguments and return type from the body.
-
+// These closure function assist iterate.
 // `map` iterate
 numbers.map({(number: Int) -> Int in
     let result = 3 * number
@@ -378,3 +376,169 @@ let sorted_number = numbers.sorted {
     $0 > $1
 }
 print(sorted_number)
+
+// Objects and Class
+
+/*
+ * Use class followed by the class's name to create class.
+ * Mehotd and function declaretions are written the same way.
+ */
+
+class Shape {
+    var number_of_sides = 0
+    func simple_description() -> String{
+        return "A shape with \(number_of_sides) sides"
+    }
+}
+
+//Create as instance of a class by putting parentheses after class name.
+//Use dot syntax to access the properties and methods of instance.
+
+var shape = Shape()
+shape.number_of_sides = 7
+var shape_descriprion = shape.simple_description()
+
+// An initializer to set up the class when an instance is created. Use init to create one.
+
+class NamedShape {
+    // Every property needs a value assigned - either in its declaration (as with number_of_sides) or in the initializer (as with name).
+    var number_of_sides: Int = 0  // This is defined default value, so it need not init.
+    var name: String              // In default, init is nil, but it is not optional and return error.
+    
+    init(name: String) {
+        self.name = name          // Define defalut value = name.
+        // `self` is used to distinguish the name property from name argument to the initializer.
+    }
+    
+    func simple_description() -> String {
+        return "A shape with \(number_of_sides) sides."
+    }
+}
+
+// Subclass include their superclass after their name, separated by a colon.
+
+class Square: NamedShape {
+    // Square inherits properties of NamedShape
+    var side_length: Double
+    
+    init (side_length: Double, name: String) {
+        self.side_length = side_length
+        super.init(name: name)
+        number_of_sides = 4
+    }
+    
+    func area() -> Double {
+        return side_length * side_length
+    }
+    
+    override func simple_description() -> String {
+        // `override` override subclass's implementation marked with override only in a subclass
+        return "A square with sides of length \(side_length)."
+    }
+}
+
+let test = Square(side_length: 5.2, name: "my test square")
+test.area()                       // return 5.2 * 5.2
+test.simple_description()         // return "A square with sides of length 5.2"
+
+// Make another subclass of NamedShape called Circle.
+
+class Circle: NamedShape {
+    var radius: Float
+    
+    init (radius: Float, name: String) {
+        self.radius = radius
+        super.init(name: name)
+    }
+    
+    func area() -> Float {
+        return radius * radius * Float.pi
+    }
+    
+    override func simple_description() -> String {
+        return "A circle widh radius of length \(radius)"
+    }
+    
+}
+
+let test2 = Circle(radius: 2.0, name: "my test circle")
+test2.area()
+test2.simple_description()
+
+// Properties can have getter and a setter.
+
+class EquilaterTriangle: NamedShape{
+    var side_length: Double = 0.0
+    
+    init(side_length: Double, name: String) {
+        self.side_length = side_length
+        super.init(name: name)
+        number_of_sides = 3
+    }
+    
+    var perimeter: Double {
+        get{
+            return 3.0 * side_length
+        }
+        set{
+            side_length = newValue / 3.0
+            // In the setter for perimeter, the new value has the implicit name newValue.
+            // I can provide an explicit name in parentheses after set.
+        }
+    }
+    
+    override func simple_description() -> String {
+        return "An equilateral triangle with sides of length \(side_length)."
+    }
+}
+
+var triangle = EquilaterTriangle(side_length: 3.1, name: "a triangle")
+print(triangle.perimeter)
+triangle.simple_description()
+
+triangle.perimeter = 9.9          // Set newValue = 9.9, side_length change to 3.3 at this point.
+print(triangle.side_length)
+triangle.simple_description()
+
+/*
+ * Notice that the initializer for the EquilateralTriangle class has three different step:
+ *  1. Setting value of properties that the subclass declares.
+ *  2. Calling the superclass's initializer.
+ *  3. Changing the value of properties defined by the superclass.
+ *     Any additional setup work that uses methods, getters, or setters can also be done at this point.
+ */
+
+// If you don't need to compute the property but still need to provide code that is run before and after setting a new value, use `didSet` and `willSet`.
+class TriangleAndSquare {
+    var triangle: EquilaterTriangle{
+        willSet {
+            square.side_length = newValue.side_length
+        }
+    }
+    var square: Square {
+        willSet{
+            triangle.side_length = newValue.side_length
+        }
+    }
+    
+    init(size: Double, name: String) {
+        square   = Square(side_length: size, name: name)
+        triangle = EquilaterTriangle(side_length: size, name: name)
+    }
+}
+
+var triangle_and_square = TriangleAndSquare(size: 10, name: "another test shape")
+print(triangle_and_square.square.side_length)
+print(triangle_and_square.triangle.side_length)
+
+triangle_and_square.square = Square(side_length: 50, name: "larger square")
+print(triangle_and_square.triangle.side_length)
+
+// Properties with set/get do NOT store values!!!
+// Properties with willSet/didSet DO store values.
+
+// When working with optional value, you can write ? before operations.
+
+let optional_square: Square? = Square(side_length: 2.5, name: "optional square")
+let side_length = optional_square?.side_length
+
