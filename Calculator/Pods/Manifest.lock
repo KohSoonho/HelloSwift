@@ -1,0 +1,12 @@
+PODS:
+  - Expression (0.12.0)
+
+DEPENDENCIES:
+  - Expression (~> 0.12)
+
+SPEC CHECKSUMS:
+  Expression: 51fb60fdd7a2cc19be7285c89775d328cd3619a5
+
+PODFILE CHECKSUM: 2ec5cb6167bcaf8220ffda156192754af1e756f7
+
+COCOAPODS: 1.4.0

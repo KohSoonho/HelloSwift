@@ -13,9 +13,9 @@ var myVariable = 42
 myVariable = 50
 
 /*
- * Constant can't be changed
- * Error: myConstant = 50
- */
+Constant can't be changed
+Error: myConstant = 50
+*/
 
 // Constant and variable must have the same type as the value you want to assign it.
 
@@ -55,14 +55,28 @@ And then I said "I have \(apples + oranges)
 piecies of fruits."
 """
 
+// Tuple
+// Tuple is like a list in R. Tuple can contain hetero type.
+let product = ("Swift", 2014)
+let guest: (String, Int) = ("Alice", 1234)
+
+// Access index of tuple by index number.
+product.0
+product.1
+
+// Tuple can have labels
+let kingaku = (price: 100, tax: 80)
+// Access index of tuple by label.
+kingaku.price
+kingaku.tax
+
 // Array and dictionaries
+
 /*
- *
- * Create arrays and dictionaries using [].
- * All contents must have same type. (It is like vector in R. [] is like c() in R.)
- * Access their elements by writing the index or key in branckets.
- *
- */
+Create arrays and dictionaries using [].
+All contents must have same type. (It is like vector in R. [] is like c() in R.)
+Access their elements by writing the index or key in branckets.
+*/
 
 // Array is like vector in R.
 var shoppinglist = ["catfish", "water", "tulips", "blue paint"]
