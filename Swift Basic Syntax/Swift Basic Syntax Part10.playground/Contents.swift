@@ -15,6 +15,9 @@ enum abnormalStatus {
 
 // Assign value of enum to other var
 var status = abnormalStatus.poison
+status        // This is poison
+
+// Type of status is "abnormalStatus.Type".
 type(of: status)
 
 status = .paralyzed   // can assinged only .__ by type inference.
@@ -52,6 +55,7 @@ enum towns:Int {    // name:type, you define rawvalue type
 // raw value can be accessed by .rawValue
 // In default, enum value have 0, 1, 2, ...
 towns.firstTown.rawValue
+towns.secondTown.rawValue
 
 // raw value can be set and automatically sequential value.
 enum towns2:Int {
@@ -85,8 +89,11 @@ enum pattern {
 }
 
 var shirt1 = pattern.Monotone(.red)
+shirt1
 var shirt2 = pattern.Border(color1: .white, color2: .green)
+shirt2
 var shirt3 = pattern.Dots(base: .white, dot1: .yellow, dot2: .green)
+shirt3
 
 // enum can define property and method
 enum villagers {
