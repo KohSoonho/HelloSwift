@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF4826F02079F68600953084 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4826EF2079F68600953084 /* AppDelegate.swift */; };
+		EF4826F22079F68600953084 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4826F12079F68600953084 /* ViewController.swift */; };
+		EF4826F52079F68600953084 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF4826F32079F68600953084 /* Main.storyboard */; };
+		EF4826F72079F68600953084 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF4826F62079F68600953084 /* Assets.xcassets */; };
+		EF4826FA2079F68600953084 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF4826F82079F68600953084 /* LaunchScreen.storyboard */; };
+		EF4827052079F68600953084 /* UIScrollByKeyboadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4827042079F68600953084 /* UIScrollByKeyboadTests.swift */; };
+		EF4827102079F68600953084 /* UIScrollByKeyboadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF48270F2079F68600953084 /* UIScrollByKeyboadUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF4827012079F68600953084 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF4826E42079F68600953084 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF4826EB2079F68600953084;
+			remoteInfo = UIScrollByKeyboad;
+		};
+		EF48270C2079F68600953084 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF4826E42079F68600953084 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF4826EB2079F68600953084;
+			remoteInfo = UIScrollByKeyboad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF4826EC2079F68600953084 /* UIScrollByKeyboad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIScrollByKeyboad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF4826EF2079F68600953084 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF4826F12079F68600953084 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF4826F42079F68600953084 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF4826F62079F68600953084 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF4826F92079F68600953084 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF4826FB2079F68600953084 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF4827002079F68600953084 /* UIScrollByKeyboadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIScrollByKeyboadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF4827042079F68600953084 /* UIScrollByKeyboadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScrollByKeyboadTests.swift; sourceTree = "<group>"; };
+		EF4827062079F68600953084 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF48270B2079F68600953084 /* UIScrollByKeyboadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIScrollByKeyboadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF48270F2079F68600953084 /* UIScrollByKeyboadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScrollByKeyboadUITests.swift; sourceTree = "<group>"; };
+		EF4827112079F68600953084 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF4826E92079F68600953084 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4826FD2079F68600953084 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4827082079F68600953084 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF4826E32079F68600953084 = {
+			isa = PBXGroup;
+			children = (
+				EF4826EE2079F68600953084 /* UIScrollByKeyboad */,
+				EF4827032079F68600953084 /* UIScrollByKeyboadTests */,
+				EF48270E2079F68600953084 /* UIScrollByKeyboadUITests */,
+				EF4826ED2079F68600953084 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF4826ED2079F68600953084 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF4826EC2079F68600953084 /* UIScrollByKeyboad.app */,
+				EF4827002079F68600953084 /* UIScrollByKeyboadTests.xctest */,
+				EF48270B2079F68600953084 /* UIScrollByKeyboadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF4826EE2079F68600953084 /* UIScrollByKeyboad */ = {
+			isa = PBXGroup;
+			children = (
+				EF4826EF2079F68600953084 /* AppDelegate.swift */,
+				EF4826F12079F68600953084 /* ViewController.swift */,
+				EF4826F32079F68600953084 /* Main.storyboard */,
+				EF4826F62079F68600953084 /* Assets.xcassets */,
+				EF4826F82079F68600953084 /* LaunchScreen.storyboard */,
+				EF4826FB2079F68600953084 /* Info.plist */,
+			);
+			path = UIScrollByKeyboad;
+			sourceTree = "<group>";
+		};
+		EF4827032079F68600953084 /* UIScrollByKeyboadTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF4827042079F68600953084 /* UIScrollByKeyboadTests.swift */,
+				EF4827062079F68600953084 /* Info.plist */,
+			);
+			path = UIScrollByKeyboadTests;
+			sourceTree = "<group>";
+		};
+		EF48270E2079F68600953084 /* UIScrollByKeyboadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF48270F2079F68600953084 /* UIScrollByKeyboadUITests.swift */,
+				EF4827112079F68600953084 /* Info.plist */,
+			);
+			path = UIScrollByKeyboadUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF4826EB2079F68600953084 /* UIScrollByKeyboad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF4827142079F68600953084 /* Build configuration list for PBXNativeTarget "UIScrollByKeyboad" */;
+			buildPhases = (
+				EF4826E82079F68600953084 /* Sources */,
+				EF4826E92079F68600953084 /* Frameworks */,
+				EF4826EA2079F68600953084 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIScrollByKeyboad;
+			productName = UIScrollByKeyboad;
+			productReference = EF4826EC2079F68600953084 /* UIScrollByKeyboad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF4826FF2079F68600953084 /* UIScrollByKeyboadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF4827172079F68600953084 /* Build configuration list for PBXNativeTarget "UIScrollByKeyboadTests" */;
+			buildPhases = (
+				EF4826FC2079F68600953084 /* Sources */,
+				EF4826FD2079F68600953084 /* Frameworks */,
+				EF4826FE2079F68600953084 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF4827022079F68600953084 /* PBXTargetDependency */,
+			);
+			name = UIScrollByKeyboadTests;
+			productName = UIScrollByKeyboadTests;
+			productReference = EF4827002079F68600953084 /* UIScrollByKeyboadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF48270A2079F68600953084 /* UIScrollByKeyboadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF48271A2079F68600953084 /* Build configuration list for PBXNativeTarget "UIScrollByKeyboadUITests" */;
+			buildPhases = (
+				EF4827072079F68600953084 /* Sources */,
+				EF4827082079F68600953084 /* Frameworks */,
+				EF4827092079F68600953084 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF48270D2079F68600953084 /* PBXTargetDependency */,
+			);
+			name = UIScrollByKeyboadUITests;
+			productName = UIScrollByKeyboadUITests;
+			productReference = EF48270B2079F68600953084 /* UIScrollByKeyboadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF4826E42079F68600953084 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = SoonhoKoh;
+				TargetAttributes = {
+					EF4826EB2079F68600953084 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					EF4826FF2079F68600953084 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF4826EB2079F68600953084;
+					};
+					EF48270A2079F68600953084 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF4826EB2079F68600953084;
+					};
+				};
+			};
+			buildConfigurationList = EF4826E72079F68600953084 /* Build configuration list for PBXProject "UIScrollByKeyboad" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF4826E32079F68600953084;
+			productRefGroup = EF4826ED2079F68600953084 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF4826EB2079F68600953084 /* UIScrollByKeyboad */,
+				EF4826FF2079F68600953084 /* UIScrollByKeyboadTests */,
+				EF48270A2079F68600953084 /* UIScrollByKeyboadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF4826EA2079F68600953084 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4826FA2079F68600953084 /* LaunchScreen.storyboard in Resources */,
+				EF4826F72079F68600953084 /* Assets.xcassets in Resources */,
+				EF4826F52079F68600953084 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4826FE2079F68600953084 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4827092079F68600953084 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF4826E82079F68600953084 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4826F22079F68600953084 /* ViewController.swift in Sources */,
+				EF4826F02079F68600953084 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4826FC2079F68600953084 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4827052079F68600953084 /* UIScrollByKeyboadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4827072079F68600953084 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4827102079F68600953084 /* UIScrollByKeyboadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF4827022079F68600953084 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF4826EB2079F68600953084 /* UIScrollByKeyboad */;
+			targetProxy = EF4827012079F68600953084 /* PBXContainerItemProxy */;
+		};
+		EF48270D2079F68600953084 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF4826EB2079F68600953084 /* UIScrollByKeyboad */;
+			targetProxy = EF48270C2079F68600953084 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF4826F32079F68600953084 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF4826F42079F68600953084 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF4826F82079F68600953084 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF4826F92079F68600953084 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF4827122079F68600953084 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF4827132079F68600953084 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF4827152079F68600953084 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6785MLV8GV;
+				INFOPLIST_FILE = UIScrollByKeyboad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.millerttime60.UIScrollByKeyboad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF4827162079F68600953084 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6785MLV8GV;
+				INFOPLIST_FILE = UIScrollByKeyboad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.millerttime60.UIScrollByKeyboad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EF4827182079F68600953084 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6785MLV8GV;
+				INFOPLIST_FILE = UIScrollByKeyboadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.millerttime60.UIScrollByKeyboadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIScrollByKeyboad.app/UIScrollByKeyboad";
+			};
+			name = Debug;
+		};
+		EF4827192079F68600953084 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6785MLV8GV;
+				INFOPLIST_FILE = UIScrollByKeyboadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.millerttime60.UIScrollByKeyboadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIScrollByKeyboad.app/UIScrollByKeyboad";
+			};
+			name = Release;
+		};
+		EF48271B2079F68600953084 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6785MLV8GV;
+				INFOPLIST_FILE = UIScrollByKeyboadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.millerttime60.UIScrollByKeyboadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UIScrollByKeyboad;
+			};
+			name = Debug;
+		};
+		EF48271C2079F68600953084 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6785MLV8GV;
+				INFOPLIST_FILE = UIScrollByKeyboadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.millerttime60.UIScrollByKeyboadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UIScrollByKeyboad;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF4826E72079F68600953084 /* Build configuration list for PBXProject "UIScrollByKeyboad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4827122079F68600953084 /* Debug */,
+				EF4827132079F68600953084 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF4827142079F68600953084 /* Build configuration list for PBXNativeTarget "UIScrollByKeyboad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4827152079F68600953084 /* Debug */,
+				EF4827162079F68600953084 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF4827172079F68600953084 /* Build configuration list for PBXNativeTarget "UIScrollByKeyboadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4827182079F68600953084 /* Debug */,
+				EF4827192079F68600953084 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF48271A2079F68600953084 /* Build configuration list for PBXNativeTarget "UIScrollByKeyboadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF48271B2079F68600953084 /* Debug */,
+				EF48271C2079F68600953084 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF4826E42079F68600953084 /* Project object */;
+}
